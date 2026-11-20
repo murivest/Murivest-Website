@@ -26,7 +26,6 @@ module.exports = {
     '/studio', '/studio/*',
     '/api/*',
     '/login', '/kenya/login', '/united-kingdom/login',
-    '/kenya/advisors', '/kenya/advisors/*',
     '/singapore/investor-portal/dashboard', '/singapore/investor-portal/deals',
     '/singapore/investor-portal/documents', '/singapore/investor-portal/login',
     // duplicates whose canonical points elsewhere
