@@ -142,7 +142,7 @@ export default function PropertyClientView({
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-5">
           <div className="flex items-center justify-between">
             <Link
-              href="/properties"
+              href="/kenya/properties"
               className="group flex items-center gap-3 hover:opacity-70 transition-opacity"
             >
               <div

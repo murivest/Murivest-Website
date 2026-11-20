@@ -611,7 +611,7 @@ const PropertyDrawer: React.FC<{
               {/* CTAs */}
               <div className="space-y-3 pt-4">
                 <NextLink
-                  href={`/properties/${property.slug}`}
+                  href={`/kenya/properties/${property.slug}`}
                   onClick={onClose}
                   className="flex items-center justify-center gap-2 w-full h-12 bg-[#1B4332] text-white hover:bg-[#2D5A45] transition-colors text-[11px] tracking-[0.2em] uppercase font-medium"
                 >

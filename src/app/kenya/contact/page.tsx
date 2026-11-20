@@ -9,7 +9,7 @@ import {
 export const metadata: Metadata = {
   title: 'Contact Murivest Group Ltd - Premier Real Estate Investment Consultations',
   description:
-    'Contact Murivest, East Africa\'s premier commercial real estate investment advisory. Schedule private consultations for institutional investors, family offices and UHNWI seeking acquisition advisory, capital markets, and development strategy across Kenya, UAE, UK, US and Singapore markets. Mandate-based engagements only.',
+    'Contact Murivest, East Africa\'s premier commercial real estate services and investment firm. Schedule private consultations for institutional investors, family offices and UHNWI seeking investment services, capital markets, and development strategy across Kenya, UAE, UK, US and Singapore markets. Mandate-based engagements only.',
   keywords:
     'contact Murivest Group Ltd, real estate consultation Kenya, property investment advice Kenya, commercial real estate experts Kenya, investment consultation Nairobi, property advisory services Africa, institutional real estate contact, mandate submission',
   openGraph: {

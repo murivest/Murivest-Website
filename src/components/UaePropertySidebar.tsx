@@ -10,7 +10,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { TrendingUp, ArrowUpRight, MapPin, Mail, Shield, Phone } from 'lucide-react';
+import { TrendingUp, ArrowUpRight, MapPin, Mail, Shield, Phone, Loader2 } from 'lucide-react';
 import type { UaeCategory } from '@/lib/sanity/client';
 
 // ─── Types ────────────────────────────────────────────────────────────────────
@@ -59,12 +59,42 @@ export default function UaePropertySidebar({
   brokerEmail = 'uae@murivest.co.ke',
   brokerPhone = '+971 50 123 4567',
 }: Props) {
+  // ─── Subscribe State ──────────────────────────────────────────────────────
   const [email,      setEmail]      = useState('');
   const [subscribed, setSubscribed] = useState(false);
+  const [isLoading,  setIsLoading]  = useState(false);
+  const [error,      setError]      = useState<string | null>(null);
 
-  const handleSubscribe = (e: React.FormEvent) => {
+  // ─── Subscribe Handler ────────────────────────────────────────────────────
+  const handleSubscribe = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email.trim()) setSubscribed(true);
+    setIsLoading(true);
+    setError(null);
+
+    try {
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email,
+          country_code: 'AE', // Set to AE for UAE
+          page_url: typeof window !== 'undefined' ? window.location.href : '',
+          source: 'uae_property_sidebar',
+        }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Something went wrong. Please try again.');
+      }
+
+      setSubscribed(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to subscribe.');
+    } finally {
+      setIsLoading(false);
+    }
   };
 
   return (
@@ -235,16 +265,33 @@ export default function UaePropertySidebar({
           <form onSubmit={handleSubscribe} className="mt-5 space-y-2.5">
             <input type="email" required placeholder="Your email address" value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="w-full px-4 py-3 text-[13px] outline-none placeholder:text-stone-500 font-serif"
+              disabled={isLoading}
+              className="w-full px-4 py-3 text-[13px] outline-none placeholder:text-stone-500 font-serif disabled:opacity-50"
               style={{ background: 'rgba(255,255,255,0.06)', border: '1px solid rgba(184,150,46,0.3)', color: '#F5F0E4' }}
               onFocus={(e) => (e.currentTarget.style.borderColor = '#B8956B')}
               onBlur={(e) => (e.currentTarget.style.borderColor = 'rgba(184,150,46,0.3)')}
             />
+            
+            {/* Error Message */}
+            {error && (
+              <p className="text-[11px] text-red-400 px-1 font-serif">
+                {error}
+              </p>
+            )}
+
             <button type="submit"
-              className="w-full px-4 py-3 text-[11px] font-semibold tracking-[0.18em] uppercase font-serif transition-all duration-300 hover:bg-[#2D5A45]"
+              disabled={isLoading}
+              className="w-full flex items-center justify-center gap-2 px-4 py-3 text-[11px] font-semibold tracking-[0.18em] uppercase font-serif transition-all duration-300 hover:bg-[#2D5A45] disabled:opacity-70 disabled:hover:bg-[#1B4332]"
               style={{ background: '#1B4332', color: '#FAF9F6', border: '1px solid #2D5A45' }}
             >
-              Subscribe to UAE Intelligence
+              {isLoading ? (
+                <>
+                  <Loader2 size={14} className="animate-spin" />
+                  Subscribing...
+                </>
+              ) : (
+                'Subscribe to UAE Intelligence'
+              )}
             </button>
           </form>
         )}

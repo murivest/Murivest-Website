@@ -92,7 +92,7 @@ export default function InvestorBriefTeaser() {
           </p>
 
           <Link
-            href="https://portal.murivest.com"
+            href="https://investors.murivest.com"
             className="w-full inline-flex items-center justify-center gap-2 bg-[#0B3D2E] text-[#F8F7F4] py-3 text-[11px] tracking-[0.2em] uppercase font-medium"
           >
             Investor Access

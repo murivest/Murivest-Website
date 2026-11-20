@@ -2114,7 +2114,7 @@ export const researchData: Record<string, researchPostData> = {
   <p><strong>20. Cytonn Investments</strong></p>
   <p>An investment firm with real estate development and advisory history, relevant to investors tracking structured real estate products.</p>
 
-  <p>These twenty firms, along with the wider advisory ecosystem mapped on our <a href="https://murivest.com/properties">properties page</a>, represent the landscape as it stands today.</p>
+  <p>These twenty firms, along with the wider advisory ecosystem mapped on our <a href="https://murivest.com/kenya/properties">properties page</a>, represent the landscape as it stands today.</p>
 
   <p>This doesn't mean the landscape will stand still.</p>
 
@@ -2288,7 +2288,7 @@ export const researchData: Record<string, researchPostData> = {
 
   <p><strong>P.S.</strong> Again, if you're interested, just email or call our advisory team at <a href="mailto:capital@murivest.com">capital@murivest.com</a> and we'll set you up with everything you will need.</p>
 
-  <p>Also, if you're simply looking for a property listing, any portal in Nairobi can serve you. But this is not the time for it. For now, please allow us to spend time on this consultation with investors interested in institutional-grade advisory relationships at Murivest and the wider landscape documented at <a href="https://murivest.com/properties">murivest.com/properties</a>.</p>
+  <p>Also, if you're simply looking for a property listing, any portal in Nairobi can serve you. But this is not the time for it. For now, please allow us to spend time on this consultation with investors interested in institutional-grade advisory relationships at Murivest and the wider landscape documented at <a href="https://murivest.com/kenya/properties">murivest.com/kenya/properties</a>.</p>
 
   <h2>Related Articles</h2>
   <ul>
@@ -3399,7 +3399,7 @@ export const researchData: Record<string, researchPostData> = {
     <figcaption>The Concord Hotel — KSh 3.0B Five-Star Hospitality Asset in Parklands</figcaption>
   </figure>
   
-  <p>These beautiful institutional assets, along with others on our <a href="https://murivest.com/properties">properties page</a>, are available as I write this letter.</p>
+  <p>These beautiful institutional assets, along with others on our <a href="https://murivest.com/kenya/properties">properties page</a>, are available as I write this letter.</p>
   
   <p>This doesn't mean they will last long.</p>
   
@@ -3590,7 +3590,7 @@ export const researchData: Record<string, researchPostData> = {
   
   <p><strong>P.S.</strong> Again, if you're interested, just email or call our advisory team at <a href="mailto:capital@murivest.com">capital@murivest.com</a> and we'll set you up with everything you will need.</p>
   
-  <p>Also, if you're simply looking for an inexpensive property tour, Nairobi CBD is a great destination. But this is not the time for it. For now, please allow us to spend time on this inspection with investors interested in institutional real estate acquisition opportunities at Absa Towers and our other assets on <a href="https://murivest.com/properties">murivest.com/properties</a>.</p>
+  <p>Also, if you're simply looking for an inexpensive property tour, Nairobi CBD is a great destination. But this is not the time for it. For now, please allow us to spend time on this inspection with investors interested in institutional real estate acquisition opportunities at Absa Towers and our other assets on <a href="https://murivest.com/kenya/properties">murivest.com/kenya/properties</a>.</p>
   
   <h2>Related Articles</h2>
   <ul>
@@ -11375,13 +11375,13 @@ content: `
               <td class="px-6 py-4 font-medium border">High-rate taxpayer, £250K-£750K capital, time-constrained</td>
               <td class="px-6 py-4 border">70% Commercial (direct/syndicated), 20% REITs, 10% Residential (existing only)</td>
               <td class="px-6 py-4 border">Tax efficiency and operational delegation critical; residential regulatory burden unsustainable at scale</td>
-              <td class="px-6 py-4 border"><a href="https://murivest.com/properties">Commercial property sourcing</a> + professional management</td>
+              <td class="px-6 py-4 border"><a href="https://murivest.com/kenya/properties">Commercial property sourcing</a> + professional management</td>
             </tr>
             <tr class="bg-gray-50 border-b">
               <td class="px-6 py-4 font-medium border">Retired/income-focused, £500K+ capital</td>
               <td class="px-6 py-4 border">80% Commercial (long-leased, prime), 15% Property income funds, 5% Cash</td>
               <td class="px-6 py-4 border">Yield sustainability and covenant security paramount; residential management intensity incompatible with lifestyle</td>
-              <td class="px-6 py-4 border">Medical/industrial with 10+ year leases; <a href="https://murivest.com/properties">income portfolio construction</a></td>
+              <td class="px-6 py-4 border">Medical/industrial with 10+ year leases; <a href="https://murivest.com/kenya/properties">income portfolio construction</a></td>
             </tr>
             <tr class="bg-white border-b">
               <td class="px-6 py-4 font-medium border">Business owner, trading premises occupier</td>
@@ -11440,7 +11440,7 @@ content: `
       <div class="my-12 p-8 bg-white rounded-xl text-white text-center">
         <p class="text-2xl font-serif font-bold mb-4">Optimise Your Property Portfolio Allocation</p>
         <p class="text-emerald-100 mb-6 max-w-2xl mx-auto">Murivest's property investment strategists provide portfolio analysis comparing your current residential and commercial holdings against optimal allocation frameworks. Our assessment includes tax efficiency modelling, risk-adjusted return projections, and transition pathway design for portfolio restructuring.</p>
-        <a href="https://murivest.com/properties" class="inline-block bg-emerald-500 hover:bg-emerald-400 text-black font-semibold py-3 px-8 rounded-lg transition duration-300">Request Portfolio Allocation Review</a>
+        <a href="https://murivest.com/kenya/properties" class="inline-block bg-emerald-500 hover:bg-emerald-400 text-black font-semibold py-3 px-8 rounded-lg transition duration-300">Request Portfolio Allocation Review</a>
         <p class="text-sm text-emerald-200 mt-4">Comprehensive analysis complimentary for portfolios exceeding £500,000</p>
       </div>
 

@@ -69,9 +69,8 @@ const KENYA_NAV: NavSection[] = [
     columns: [
       [
         { label: 'Commercial Listings', href: '/kenya/properties', sub: 'Grade A office investment', icon: Building2 },
-        { label: 'Office', href: '/kenya/office-developments', sub: 'Warehousing & logistics', icon: Warehouse },
         { label: 'Property Management', href: '/kenya/property-management', sub: 'Retail & mixed-use investment', icon: Store },
-        { label: 'Properties to Let', href: '/kenya/properties/to-let', sub: 'Available leasing space', icon: Home },
+        { label: 'Properties to Let', href: 'https://lettings.murivest.com/properties', sub: 'Available leasing space', icon: Home },
         { label: 'Land For Sale', href: '/kenya/land-portfolio', sub: 'Strategic parcels', icon: LandPlot },
       ],
     ],

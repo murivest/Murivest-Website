@@ -14,7 +14,7 @@ export const metadata: Metadata = {
   title: 'Murivest Group Ltd | Institutional Real Estate Advisory Kenya',
 
   // 2. AUTHORITATIVE DESCRIPTION
-  description: 'Murivest Group Ltd is an Institutional commercial real estate services firm. We originate and advise on institutional-grade mandates Global commercial property markets. Engagements by mandate only.',
+  description: 'Murivest Group Ltd — international commercial real estate services and investment firm across East Africa, the UK and global markets. Brokerage, asset management, investment property services.',
 
   // 3. TARGETED KEYWORDS (Curated for High-Net-Worth intent)
   keywords: [
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   // 4. OPEN GRAPH (Social Sharing)
   openGraph: {
     title: 'Murivest Group Ltd | commercial real estate services',
-    description: 'Murivest Group Ltd is an Institutional commercial real estate services firm. We originate and advise on institutional-grade mandates Global commercial property markets. Engagements by mandate only.',
+    description: 'Murivest Group Ltd — international commercial real estate services and investment firm across East Africa, the UK and global markets. Brokerage, asset management, investment property services.',
     url: 'https://murivest.com',
     siteName: 'Murivest Group Ltd',
     images: [
@@ -70,7 +70,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Murivest Group Ltd | commercial real estate services',
-    description: 'Murivest Group Ltd is an Institutional commercial real estate services firm. We originate and advise on institutional-grade mandates Global commercial property markets. Engagements by mandate only.',
+    description: 'Murivest Group Ltd — international commercial real estate services and investment firm across East Africa, the UK and global markets. Brokerage, asset management, investment property services.',
     images: ['/logo.webp'],
   },
 

@@ -210,7 +210,7 @@ export default function About() {
         }}>
           <img
             src="/murivest_secretary.webp"
-            alt="Murivest Advisory Office"
+            alt="Murivest Group Ltd Office"
             style={{ width: '100%', height: '100%', objectFit: 'cover', objectPosition: 'center top' }}
           />
         </div>
@@ -239,7 +239,7 @@ export default function About() {
                 fontFamily: "'Libre Baskerville', Georgia, serif",
                 fontSize: '0.58rem', letterSpacing: '0.35em',
                 textTransform: 'uppercase', color: '#6e4606',
-              }}>About the Firm · Nairobi · Est. 2025</span>
+              }}>About the Firm · East Africa · United Kingdom · International Markets</span>
             </div>
 
             <h1
@@ -251,10 +251,9 @@ export default function About() {
                 marginBottom: '2.5rem', maxWidth: '780px',
               }}
             >
-              Building Institutional<br />
-              Discipline in <br />
-              <em style={{ fontStyle: 'italic', fontWeight: 300 }}>African Commercial</em><br />
-              Real Estate.
+              Connecting Capital to<br />
+              Grade A Commercial<br />
+              <em style={{ fontStyle: 'italic', fontWeight: 300 }}>Real Estate.</em>
             </h1>
 
             <div style={{ width: '48px', height: '1px', background: '#8B6C2A', marginBottom: '2rem' }} />
@@ -264,10 +263,10 @@ export default function About() {
               style={{
                 fontSize: '1.1rem', lineHeight: 1.8,
                 color: 'rgba(245,242,237,0.75)',
-                maxWidth: '520px', marginBottom: '3rem',
+                maxWidth: '560px', marginBottom: '3rem',
               }}
             >
-              An independent origination and advisory practice applying the underwriting standards of institutional capital to commercial real estate in Kenya.
+              An international commercial real estate services and investment firm. Brokerage, property and asset management, and investment property services in Grade A income-producing commercial assets across East Africa, the United Kingdom, and other international markets.
             </p>
 
             <a href="/contact" className="link-rule" style={{ color: '#F5F2ED' }}>
@@ -301,7 +300,7 @@ export default function About() {
             fontFamily: "'Libre Baskerville', Georgia, serif",
             fontSize: '0.55rem', letterSpacing: '0.28em',
             textTransform: 'uppercase', color: 'rgba(196,180,154,0.6)',
-          }}>Westlands · Nairobi</span>
+          }}>Nairobi · London · International</span>
         </div>
       </section>
 
@@ -322,7 +321,7 @@ export default function About() {
           <span style={{
             fontFamily: "'Cormorant Garamond', Georgia, serif",
             fontSize: '0.95rem', fontStyle: 'italic', color: '#8B6C2A',
-          }}>Origin · Philosophy · Markets · Governance</span>
+          }}>Services · Philosophy · Markets · Governance</span>
           <span style={{
             fontFamily: "'Libre Baskerville', Georgia, serif",
             fontSize: '0.58rem', letterSpacing: '0.3em',
@@ -332,7 +331,7 @@ export default function About() {
       </div>
 
 
-      {/* ── § I — FOUNDATION ─────────────────────────────────────── */}
+      {/* ── § I — THE FIRM ───────────────────────────────────────── */}
       <section className="about-section" style={{ padding: '7rem 5rem', maxWidth: '1300px', margin: '0 auto' }}>
         <Reveal>
           <div className="about-section-title" style={{ display: 'flex', alignItems: 'flex-start', gap: '3rem', marginBottom: '4rem' }}>
@@ -343,11 +342,11 @@ export default function About() {
                 fontSize: '0.6rem', letterSpacing: '0.3em',
                 textTransform: 'uppercase', color: '#8B6C2A',
                 display: 'block', marginBottom: '1rem',
-              }}>Origin &amp; Orientation</span>
+              }}>Commercial Real Estate Services &amp; Investment</span>
               <h2 className="murivest-serif" style={{
                 fontSize: 'clamp(2rem, 3.5vw, 3.2rem)',
                 fontWeight: 300, lineHeight: 1.2, color: '#1C2B1E',
-              }}>The Foundation</h2>
+              }}>The Firm</h2>
             </div>
           </div>
         </Reveal>
@@ -358,12 +357,12 @@ export default function About() {
             borderTop: '1px solid #C4B49A', paddingTop: '3rem',
           }}>
             <div className="prose-block">
-              <p>Murivest Group Ltd was founded in 2025 with a single purpose: to build the institutional infrastructure that East African commercial real estate has historically lacked — structured underwriting, disciplined capital allocation, and fiduciary standards aligned with international investor expectations.</p>
-              <p>We are an early-stage platform. We do not pretend otherwise. What we bring is not a fabricated track record — it is a framework, a network, and a commitment to executing the first mandate with the same rigour we intend to apply to the hundredth.</p>
+              <p>Murivest Group Ltd is an international commercial real estate services and investment firm operating across East Africa, the United Kingdom, and other international markets. The Company provides brokerage, property and asset management, and investment property services in respect of Grade A income-producing commercial assets.</p>
+              <p>Murivest connects institutional firms, institutional investors, and retail investors to those assets on a direct, non-pooled, mandate-only basis. The Company does not pool capital, operate collective investment schemes, or offer unlicensed financial products.</p>
             </div>
             <div className="prose-block">
-              <p>Our pipeline is focused on Grade A office, logistics, and mixed-use assets within the Nairobi Metropolitan Area — markets we know with precision and in which we maintain active origination relationships.</p>
-              <p>Murivest operates with long-term alignment in mind, prioritising risk-adjusted performance over transaction volume. We seek capital partners who share that orientation.</p>
+              <p>Every engagement is subject to formal scope documentation, KYC/AML verification, and transparent fee structures, and is conducted under fiduciary standards across Kenya, the United Kingdom, and other relevant jurisdictions.</p>
+              <p>The firm operates across the principal commercial property sectors — office, industrial, retail, hospitality, mixed-use, and land — within its target markets, prioritising risk-adjusted performance over transaction volume.</p>
             </div>
           </div>
         </Reveal>
@@ -414,7 +413,7 @@ export default function About() {
               <p>Commercial real estate in emerging markets rewards discipline above all else. The premiums are real. So are the structural risks. Our evaluation framework is built around downside protection first — lease quality, tenant covenant strength, capital expenditure planning, and exit strategy clarity before any acquisition is advanced.</p>
             </div>
             <div className="prose-block">
-              <p>We do not chase yield. We underwrite it. Every asset we present to capital partners has been reviewed against a conservative stress scenario, a realistic hold period, and a defined realisation pathway. We are aligned with the long-term capital partners we seek — patient, measured, and oriented toward durable value rather than transaction velocity.</p>
+              <p>We do not chase yield. We underwrite it. Every asset we connect to capital partners is reviewed against a conservative stress scenario, a realistic hold period, and a defined realisation pathway. We are aligned with the long-term capital partners we seek — patient, measured, and oriented toward durable value rather than transaction velocity.</p>
             </div>
           </div>
         </Reveal>
@@ -436,7 +435,7 @@ export default function About() {
               fontFamily: "'Libre Baskerville', Georgia, serif",
               fontSize: '0.55rem', letterSpacing: '0.25em',
               textTransform: 'uppercase', color: 'rgba(255,255,255,0.55)',
-            }}>Nairobi Metropolitan Area · Primary Market</span>
+            }}>Nairobi · East Africa · Primary Operational Market</span>
           </div>
         </div>
       </Reveal>
@@ -474,16 +473,19 @@ export default function About() {
           >
             {[
               {
-                label: 'Capital Stage', title: 'Pipeline Development',
-                body: 'We are in active pipeline cultivation. Our current mandate focus spans industrial logistics and Grade A office in Nairobi — sectors with credible yield and institutional lease structures. No capital has been deployed. No deployment claims are made.',
+                label: 'Fiduciary Standard',
+                title: 'Conduct of Engagements',
+                body: 'All engagements are conducted under fiduciary standards, with formal scope documentation, KYC/AML verification, and transparent fee structures. Murivest acts in the interests of the principals it serves and does not pool capital or operate collective investment schemes.',
               },
               {
-                label: 'Reporting Standard', title: 'Transparency by Default',
-                body: 'Transaction case studies and performance documentation will be published as mandates are executed and formally closed. We will not circulate projected performance as realised performance. Every figure presented to capital partners will be clearly categorised.',
+                label: 'Reporting Standard',
+                title: 'Transparency by Default',
+                body: 'Transaction case studies and performance documentation are prepared on a mandate basis. Projected performance is never presented as realised performance. Every figure presented to capital partners is clearly categorised and reconciled to source.',
               },
               {
-                label: 'Engagement Model', title: 'Mandate-Only Access',
-                body: 'All capital partner introductions and deal presentations are conducted under executed NDA and following our standard KYC verification process. We do not publish live deal terms or pipeline specifics on public-facing platforms.',
+                label: 'Engagement Model',
+                title: 'Mandate-Only Access',
+                body: 'All capital partner introductions and deal presentations are conducted under executed NDA and following our standard KYC verification process. Murivest does not publish live deal terms or pipeline specifics on public-facing platforms.',
               },
             ].map((item, i) => (
               <Reveal key={i} delay={i * 0.15}>
@@ -525,7 +527,7 @@ export default function About() {
               <h2 className="murivest-serif" style={{
                 fontSize: 'clamp(2rem, 3.5vw, 3.2rem)',
                 fontWeight: 300, lineHeight: 1.2, color: '#1C2B1E',
-              }}>East Africa. <em>Institutional Grade.</em></h2>
+              }}>East Africa. United Kingdom. <em>International Markets.</em></h2>
             </div>
           </div>
         </Reveal>
@@ -536,18 +538,22 @@ export default function About() {
             borderTop: '1px solid #C4B49A', paddingTop: '3rem', marginBottom: '4rem',
           }}>
             <div className="prose-block">
-              <p>Kenya&apos;s commercial real estate sector is at an inflection point. Infrastructure expansion along the Nairobi–Mombasa corridor, sustained foreign direct investment, and a maturing institutional tenant base have created conditions for disciplined long-term investment that remain underserved by globally-oriented advisory capacity.</p>
-              <p>That is the gap Murivest is structured to close.</p>
+              <p>Murivest&apos;s primary operational market is East Africa, anchored in Nairobi. The Company maintains sourcing relationships across Westlands, Upper Hill, Karen, and the Industrial Area — the city&apos;s four principal commercial corridors — where infrastructure expansion, sustained foreign direct investment, and a maturing institutional tenant base have created conditions for disciplined long-term investment.</p>
             </div>
             <div className="prose-block">
-              <p>Our primary focus is Nairobi. We maintain sourcing relationships in Westlands, Upper Hill, Karen, and the Industrial Area — the city&apos;s four principal commercial corridors.</p>
-              <p>We are extending our origination network to Mombasa and Kigali as secondary markets. No active mandates exist in these markets at this stage.</p>
+              <p>In the United Kingdom, Murivest operates from London, supporting cross-border acquisitions, disposals, and asset management for clients with interests across both regions. The Company&apos;s international practice extends to other markets in which it holds property interests or renders services to qualified clients, connecting that capital to Grade A income-producing assets on a direct, non-pooled basis.</p>
             </div>
           </div>
         </Reveal>
 
         {/* 4-column market stats */}
         <Reveal delay={0.2}>
+          <span style={{
+            display: 'block',
+            fontFamily: "'Libre Baskerville', Georgia, serif",
+            fontSize: '0.55rem', letterSpacing: '0.3em',
+            textTransform: 'uppercase', color: '#8B6C2A', marginBottom: '1.5rem',
+          }}>Nairobi · Selected Market Indicators</span>
           <div className="about-stats-grid" style={{
             display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)',
             borderTop: '1px solid #C4B49A', paddingTop: '2.5rem',
@@ -586,13 +592,13 @@ export default function About() {
           padding: '2.5rem 0', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
         }}>
           <span style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: '1.05rem', fontStyle: 'italic', color: '#3D3328' }}>
-            Murivest Group Ltd. — Parklands, Nairobi
+            Murivest Group Ltd. — Nairobi · London
           </span>
           <span style={{ fontFamily: "'Libre Baskerville', Georgia, serif", fontSize: '0.58rem', letterSpacing: '0.3em', textTransform: 'uppercase', color: '#8B6C2A' }}>
-            KEREA · Engagements by Mandate Only
+            Engagements by Mandate Only
           </span>
           <span style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: '1.05rem', fontStyle: 'italic', color: '#3D3328' }}>
-            Est. 2025
+            East Africa · United Kingdom · International
           </span>
         </div>
       </div>
@@ -622,7 +628,7 @@ export default function About() {
             fontSize: '1.1rem', lineHeight: 1.9, color: '#3D3328',
             maxWidth: '620px', margin: '0 auto 4rem',
           }}>
-            We are building Murivest for principals who understand that the highest-quality real estate relationships are formed before the deal — through alignment of standards, expectations, and long-horizon thinking. We are not the right firm for every mandate. We intend to be exactly right for a few.
+            Murivest is structured for principals who understand that the highest-quality real estate relationships are formed before the deal — through alignment of standards, expectations, and long-horizon thinking. We are not the right firm for every mandate. We intend to be exactly right for a few.
           </p>
 
           <a href="/contact" className="link-rule" style={{ justifyContent: 'center' }}>

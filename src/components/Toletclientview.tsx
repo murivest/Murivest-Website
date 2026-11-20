@@ -1,6 +1,6 @@
 "use client";
 
-// app/ke-properties/for-rent/[slug]/ToLetClientView.tsx
+// apphttps://lettings.murivest.com/properties/[slug]/ToLetClientView.tsx
 // Client view for a single "To Let" property, mirroring PropertyClientView.tsx
 // aesthetic and sidebar pattern.
 
@@ -82,7 +82,7 @@ interface PropertyForRent {
 
 const RelatedCard: React.FC<{ property: RelatedProperty }> = ({ property }) => (
   <Link
-    href={`/ke-properties/for-rent/${property.slug}`}
+    href={`https://lettings.murivest.com/properties/${property.slug}`}
     className="group flex gap-4 p-4 bg-[#FAF9F6] border border-[#E8E6E1] hover:border-[#B8956B] transition-all duration-300"
   >
     <div className="w-20 h-16 flex-shrink-0 overflow-hidden bg-[#F5F4F0]">
@@ -183,7 +183,7 @@ const DiscoverySidebar: React.FC<{
           ))}
         </div>
         <Link
-          href="/ke-properties/for-rent"
+          href="https://lettings.murivest.com/properties"
           className="mt-4 flex items-center justify-center gap-2 w-full py-3 border border-[#E8E6E1] hover:border-[#1B4332] text-[10px] tracking-[0.2em] uppercase text-[#8B8680] hover:text-[#1B4332] transition-colors"
         >
           View All Availabilities
@@ -279,7 +279,7 @@ export default function ToLetClientView({ property }: { property: PropertyForRen
         <div className="max-w-[1400px] mx-auto px-6 lg:px-12 py-5">
           <div className="flex items-center justify-between">
             <Link
-              href="/ke-properties/for-rent"
+              href="https://lettings.murivest.com/properties"
               className="group flex items-center gap-3 hover:opacity-70 transition-opacity"
             >
               <div className="w-10 h-10 border border-white/30 group-hover:border-white flex items-center justify-center transition-colors">

@@ -68,7 +68,7 @@ const PropertyCard: React.FC<{
       transition={{ duration: 0.6, delay: index * 0.08, ease: [0.23, 1, 0.32, 1] }}
     >
       <Link
-        href={`/ke-properties/for-rent/${property.slug}`}
+        href={`https://lettings.murivest.com/properties/${property.slug}`}
         className="group block bg-white border border-[#E8E6E1] hover:border-[#B8956B] hover:shadow-xl hover:-translate-y-0.5 transition-all duration-500"
       >
         {/* Image */}

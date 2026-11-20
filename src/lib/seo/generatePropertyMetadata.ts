@@ -7,7 +7,7 @@ const BASE_URL = 'https://murivest.com';
 export function generatePropertyMetadata(property: Property): Metadata {
   const canonicalUrl =
     property.seo?.canonicalUrl ??
-    `${BASE_URL}/properties/${property.slug}`;
+    `${BASE_URL}/kenya/properties/${property.slug}`;
 
   const title =
     property.seo?.metaTitle ??

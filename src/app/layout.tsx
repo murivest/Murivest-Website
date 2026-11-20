@@ -21,12 +21,12 @@ import AppShell from '../components/layout/AppShell';
 ==================================================== */
 export const metadata: Metadata = {
   title: {
-    default: 'Murivest Group Ltd | commercial real estate services Kenya',
+    default: 'Murivest Group Ltd | Commercial Real Estate Services Kenya',
     template: '%s | Murivest',
   },
 
   description:
-    'Murivest Group is the global leader in commercial real estate services and investment advisory specializing in institutional-grade opportunities. Mandate-based advisory for office, industrial, and investment Globally.',
+  'Murivest Group Ltd provides commercial real estate brokerage, property and asset management, and investment property services across East Africa, the UK and beyond.',
 
   keywords:
     'commercial real estate services Kenya, Nairobi commercial property, office space Nairobi, industrial property Kenya, investment advisory Kenya, East Africa real estate, Murivest Group Ltd, Mark Muriithi, commercial property underwriting, exit strategy advisory',
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     url: 'https://murivest.com',
     title: 'Murivest Group Ltd | Global Commercial Real Estate Services',
     description:
-      'Murivest Group is the global leader in commercial real estate services and investment advisory specializing in institutional-grade opportunities. Mandate-based advisory for office, industrial, and investment Globally.',
+      'Murivest Group Ltd provides commercial real estate brokerage, property and asset management, and investment property services across East Africa, the UK and beyond.',
     siteName: 'Murivest Group Ltd',
     images: [
       {
@@ -59,7 +59,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Murivest Group Ltd | Global Commercial Real Estate Services',
     description:
-      'Murivest Group is the global leader in commercial real estate services and investment advisory specializing in institutional-grade opportunities.',
+      'Murivest Group Ltd provides commercial real estate brokerage, property and asset management, and investment property services across East Africa, the UK and beyond.',
     images: ['https://murivest.com/logo.webp'],
   },
 

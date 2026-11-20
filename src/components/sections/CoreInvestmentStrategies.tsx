@@ -193,7 +193,7 @@ const CoreInvestmentStrategies = () => {
             "The best investment on Earth is earth — structured, mandated, and protected."
           </p>
           <Link
-            href="/properties"
+            href="/kenya/properties"
             className="group inline-flex items-center gap-4 text-[10px] uppercase tracking-[0.3em] text-[#2C2C2C] hover:text-[#8B7355] transition-colors duration-400"
           >
             <span>View Full Portfolio</span>

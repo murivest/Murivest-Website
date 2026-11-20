@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { useParams } from 'next/navigation';
 import {
   ArrowLeft, Calendar, Clock, User, Twitter, Linkedin,
-  MessageCircle, Copy, Check, ChevronRight, Mail,
+  MessageCircle, Copy, Check, ChevronRight, Mail, Loader2
 } from 'lucide-react';
 import { researchData, type researchPostData } from '@/lib/researchData';
 
@@ -206,10 +206,43 @@ function TableOfContents({ toc }: { toc: TocItem[] }) {
 }
 
 
-// ─── Newsletter CTA (original interactive form restored) ────────────────────────
-function NewsletterCTA() {
+// ─── Newsletter CTA (API Integrated) ──────────────────────────────────────────
+export function NewsletterCTA() {
   const [email, setEmail] = useState('');
   const [submitted, setSubmitted] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const handleSubscribe = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setIsLoading(true);
+    setError(null);
+
+    try {
+      const response = await fetch('/api/subscribe', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          email,
+          country_code: 'KE', // Default or pass dynamically
+          page_url: typeof window !== 'undefined' ? window.location.href : '',
+          source: 'journal_newsletter_cta',
+        }),
+      });
+
+      const data = await response.json();
+
+      if (!response.ok) {
+        throw new Error(data.error || 'Something went wrong. Please try again.');
+      }
+
+      setSubmitted(true);
+    } catch (err) {
+      setError(err instanceof Error ? err.message : 'Failed to subscribe.');
+    } finally {
+      setIsLoading(false);
+    }
+  };
 
   return (
     <aside 
@@ -229,31 +262,47 @@ function NewsletterCTA() {
           <h3 className="font-serif text-2xl md:text-[28px] font-bold text-gray-900 leading-tight mb-3 tracking-tight">
             Institutional Global Property Trends and Market Analysis.
           </h3>
-          <p className="font-serif text-base text-gray-600 m-0 leading-relaxed">
+          <p className="font-serif text-base text-gray-600 m-0 leading-relaxed mb-6">
             Stay informed with our weekly insights on the latest trends and market analysis in global commercial real estate.
           </p>
 
-          <div className="flex flex-wrap gap-3">
+          <form onSubmit={handleSubscribe} className="flex flex-wrap gap-3">
             <input
               type="email"
+              required
               placeholder="your@email.com"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
-              className="flex-1 min-w-[240px] bg-white border border-gray-300 text-gray-900 placeholder:text-gray-400 px-4 py-3.5 font-sans text-sm outline-none focus:border-gray-900 transition-colors"
+              disabled={isLoading}
+              className="flex-1 min-w-[240px] bg-white border border-gray-300 text-gray-900 placeholder:text-gray-400 px-4 py-3.5 font-sans text-sm outline-none focus:border-gray-900 transition-colors disabled:opacity-50"
             />
             <button
-              onClick={() => { if (email.includes('@')) setSubmitted(true); }}
-              className="bg-gray-900 hover:bg-gray-800 text-white px-8 py-3.5 text-[11px] tracking-[0.15em] uppercase font-sans font-semibold cursor-pointer whitespace-nowrap transition-colors duration-200"
+              type="submit"
+              disabled={isLoading}
+              className="flex items-center justify-center gap-2 bg-gray-900 hover:bg-gray-800 text-white px-8 py-3.5 text-[11px] tracking-[0.15em] uppercase font-sans font-semibold cursor-pointer whitespace-nowrap transition-colors duration-200 disabled:opacity-70 disabled:cursor-not-allowed"
             >
-              Subscribe
+              {isLoading ? (
+                <>
+                  <Loader2 size={14} className="animate-spin" />
+                  Subscribing...
+                </>
+              ) : (
+                'Subscribe'
+              )}
             </button>
-          </div>
+          </form>
+
+          {/* Error Message */}
+          {error && (
+            <p className="mt-3 font-sans text-sm text-red-600">
+              {error}
+            </p>
+          )}
         </div>
       )}
     </aside>
   );
 }
-
 
 // ─── Author Bio ───────────────────────────────────────────────────────────────
 function AuthorBio({ authorName }: { authorName: string }) {

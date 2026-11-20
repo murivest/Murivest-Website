@@ -4,7 +4,7 @@ import GlobalHomePage from '@/components/Globalhomepage'
 export const metadata: Metadata = {
   title: 'Murivest Group Ltd | Global Commercial Real Estate Services',
   description:
-    'Murivest Group is the global leader in commercial real estate services and investment advisory specializing in institutional-grade opportunities. Mandate-based advisory for office, industrial, and investment Globally.',
+    'Murivest Group Ltd — international commercial real estate services and investment firm across East Africa, the UK and global markets. Brokerage, asset management, investment property services.',
   keywords: [
     'commercial real estate services Kenya',
     'Nairobi commercial property',
@@ -24,12 +24,12 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Murivest Group Ltd | Global Commercial Real Estate Services',
     description:
-      'Murivest Group is the global leader in commercial real estate services and investment advisory specializing in institutional-grade opportunities. Mandate-based advisory for office, industrial, and investment Globally.',
+      'Murivest Group Ltd provides commercial real estate brokerage, property and asset management, and investment property services across East Africa, the UK and beyond.',
     url: 'https://murivest.com',
     siteName: 'Murivest Group Ltd',
     images: [
       {
-        url: 'https://murivest.com/og-global.webp',
+        url: 'https://murivest.com/image.webp',
         width: 1200,
         height: 630,
         alt: 'Murivest Group Ltd – commercial real estate services Kenya',
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     title: 'Murivest Group Ltd | Global Commercial Real Estate Services',
     description:
       'Murivest Group is the global leader in commercial real estate services and investment advisory specializing in institutional-grade opportunities.',
-    images: ['https://murivest.com/og-global.webp'],
+    images: ['https://murivest.com/image.webp'],
   },
 
   alternates: {

@@ -7,7 +7,7 @@ export function generateBreadcrumbSchema(property: Property): Record<string, unk
   const categorySegment = property.propertyType?.toLowerCase() ?? 'commercial';
   const pageUrl =
     property.seo?.canonicalUrl ??
-    `${BASE_URL}/properties/${property.slug}`;
+    `${BASE_URL}/kenya/properties/${property.slug}`;
 
   return {
     '@context': 'https://schema.org',
@@ -23,13 +23,13 @@ export function generateBreadcrumbSchema(property: Property): Record<string, unk
         '@type': 'ListItem',
         position: 2,
         name: 'Properties',
-        item: `${BASE_URL}/properties`,
+        item: `${BASE_URL}/kenya/properties`,
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: property.propertyType ?? 'Commercial',
-        item: `${BASE_URL}/properties?type=${categorySegment}`,
+        item: `${BASE_URL}/kenya/properties?type=${categorySegment}`,
       },
       {
         '@type': 'ListItem',

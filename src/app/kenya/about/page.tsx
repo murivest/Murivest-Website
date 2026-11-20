@@ -8,15 +8,15 @@ import {
 } from '@/lib/schema'
 
 export const metadata: Metadata = {
-  title: 'Murivest Group Group Ltd - Independent Advisory Firm Kenya',
+  title: 'Murivest Group Ltd - Commercial Real Estate Services Kenya',
   description:
-    'Murivest Group Ltd is an independent institutional commercial real estate services firm headquartered in Nairobi. Founded in 2025, we provide acquisition advisory, capital markets, and development strategy Global markets to sovereign wealth funds, pension funds, and family offices. All engagements are mandate-based with full KYC/AML compliance.',
+    'Murivest Group Ltd provides commercial real estate brokerage, property and asset management, and investment property services across East Africa, the UK and beyond.',
   keywords:
     'Murivest Group Ltd, independent real estate advisory Kenya, commercial property advisory Nairobi, institutional real estate standards, mandate-based advisory East Africa, real estate consulting Africa, property investment advisory Kenya',
   openGraph: {
-    title: 'Murivest Group Group Ltd - Institutional Advisory',
+    title: 'Murivest Group Ltd - Commercial Real Estate Services Kenya',
     description:
-      'Institutional commercial real estate services firm serving institutional investors across East Africa since 2015. Acquisition advisory, capital markets, and development strategy with full compliance standards.',
+      'Murivest Group Ltd provides commercial real estate brokerage, property and asset management, and investment property services across East Africa, the UK and beyond.',
     images: ['/image.webp'],
   },
 }
@@ -47,7 +47,7 @@ const aboutFaqs = [
   {
     question: 'What is Murivest Group Ltd\'s investment philosophy?',
     answer:
-      'Murivest operates on a research-first, mandate-based advisory model. We do not represent sellers or developers, ensuring every recommendation is aligned with the investor\'s objectives. Our underwriting standards mirror institutional investment committees, with full KYC/AML compliance on every engagement.',
+      'Murivest Group Ltd provides commercial real estate brokerage, property and asset management, and investment property services across East Africa, the UK and beyond.',
   },
   {
     question: 'Which markets does Murivest operate in?',

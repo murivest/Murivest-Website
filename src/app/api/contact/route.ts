@@ -106,12 +106,6 @@ const COUNTRY_CONFIG: Record<string, {
     phone: '+254 115 277 610',
     regionNote: 'our portfolio of income-generating opportunities for GCC-based investors',
   },
-  NG: {
-    name: 'Nigeria', currency: 'NGN',
-    office: 'Nairobi office — serving West African investors remotely',
-    phone: '+254 115 277 610',
-    regionNote: 'our portfolio and diaspora investor programmes',
-  },
 };
 
 function emailShell(title: string, inner: string): string {

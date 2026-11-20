@@ -11,7 +11,7 @@ function availabilityUrl(status?: Property['status']): string {
 export function generatePropertySchema(property: Property): Record<string, unknown> {
   const pageUrl =
     property.seo?.canonicalUrl ??
-    `${BASE_URL}/properties/${property.slug}`;
+    `${BASE_URL}/kenya/properties/${property.slug}`;
 
   return {
     '@context': 'https://schema.org',

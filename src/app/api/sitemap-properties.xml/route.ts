@@ -29,7 +29,7 @@ export async function GET() {
       const lastmod = p.updatedAt ?? p.publishedAt ?? new Date().toISOString();
       return `
   <url>
-    <loc>${BASE_URL}/properties/${p.slug}</loc>
+    <loc>${BASE_URL}/kenya/properties/${p.slug}</loc>
     <lastmod>${lastmod.slice(0, 10)}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>

@@ -3,9 +3,10 @@ import InstitutionalPage from '@/components/marketing/InstitutionalPage'
 import { Map, TreeDeciduous, Landmark, FileSearch } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Land Banking & Development Sites | Murivest Advisory',
-  description: 'Strategic land acquisition, banking, and development-site sourcing advisory across our covered markets.',
-}
+  title: 'Land Banking & Development Sites | Murivest Group Ltd',
+  description:
+    'Strategic land acquisition, land banking and development-site services across East Africa, the United Kingdom and international markets. Engagements by mandate only.',
+};
 
 export default function LandPortfolioPage() {
   return (

@@ -32,7 +32,7 @@ export const countrySEO: Record<CountryCode, CountrySEOConfig> = {
     domain: 'https://murivest.com',
     canonical: 'https://murivest.com',
     locale: 'en_KE',
-    ogImage: 'https://murivest.com/og-global.webp',
+    ogImage: 'https://murivest.com/image.webp',
     region: 'East Africa',
     cities: 'Nairobi · Kigali · Kampala · Dar es Salaam',
     schemaRegion: 'KE',

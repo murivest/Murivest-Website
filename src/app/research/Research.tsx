@@ -77,7 +77,18 @@ const research: ResearchEntry[] = [
     date: '2026-06-24',
     readTime: '11 min read',
     featured: false
-  }
+  },
+  {
+  id: 'importance-secure-income-total-returns-offices-2026',
+  title: 'The Importance of Secure Income in Total Returns, and Why Offices Remain a Safe Bet',
+  excerpt: 'Income has accounted for over 80% of European office total returns since 2001, while capital growth has been more than five times as volatile. With prime CBD vacancy at 3–4% and covenants stronger than retail or logistics, the case for office income is reasserting itself.',
+  author: getAuthor('market'),
+  image: '/research-images/importance-secure-income-total-returns-offices-2026.webp',
+  category: 'Global Commercial Office & Income Strategy',
+  date: '2026-11-10',
+  readTime: '11 min read',
+  featured: false
+},
 
 ];
 

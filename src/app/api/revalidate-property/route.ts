@@ -37,10 +37,10 @@ export async function POST(req: NextRequest) {
   try {
     if (slug) {
       // Revalidate the specific property page
-      revalidatePath(`/properties/${slug}`);
+      revalidatePath(`/kenya/properties/${slug}`);
     } else {
       // Revalidate all property pages if no slug provided
-      revalidatePath('/properties', 'layout');
+      revalidatePath('/kenya/properties', 'layout');
     }
 
     // Always revalidate the sitemap
