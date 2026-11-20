@@ -8,7 +8,7 @@ import { z } from 'zod';
 // Make sure to add SUPABASE_SERVICE_ROLE_KEY to your .env file!
 // ---------------------------------------------------------------------------
 const supabase = createClient(
-  process.env.NEXT_PUBLIC_SUPABASE_URL2!, // Adjust if your env var is different
+  process.env.NEXT_PUBLIC_SUPABASE_URL!, // Adjust if your env var is different
   process.env.SUPABASE_SERVICE_ROLE_KEY!,
   { auth: { persistSession: false } }
 );
